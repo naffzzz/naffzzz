@@ -1,0 +1,109 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+}
+ .active.slideInFromBottom {
+  animation: 1s slideInFromBottom ease-in;
+}
+.active.slideInFromLeft {
+  animation: 1s slideInFromLeft ease-in;
+}
+.active.slideInFromRight {
+  animation: 1s slideInFromRight ease-in;
+}
+.active.slideInFromTop {
+  animation: 1s slideInFromTop ease-in;
+}
+
+/* .slideInFromLeft {
+  animation: 1.5s slideInFromLeft ease-in;
+  transition: 2s all ease;
+} */
+
+/* .slideInFromRight {
+  animation: 1.5s slideInFromRight ease-in;
+  transition: 2s all ease;
+} */
+
+.slideInFromTopDef {
+  animation: 1s slideInFromTop ease-in;
+}
+
+.slideInFromBottomDef {
+  animation: 1s slideInFromBottom ease-in;
+}
+
+.body-background {
+  background-color: #f5f5f5;
+}
+
+.icon-background {
+  color: #f5f5f5;
+}
+
+.icon-background2 {
+  color: #1d66b3;
+}
+
+.subtitle {
+  color: #1b67b3;
+}
+
+.subtitle2 {
+  color: #e1ac20;
+}
+
+.footer1 {
+  background-color: #143b61;
+}
+
+.ptV2-5 {
+  margin-top: 50px;
+}
